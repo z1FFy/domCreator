@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verstq v.0.1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="application/javascript" src="core.js"></script>
+    <script type="application/javascript" src="common.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="head">
+        <h3>VerstQ - Web Development Platform</h3>
+    </div>
+    <div class="leftSide">
+        <div class="block addElems">
+            <h2>Add element</h2>
+            <div id="typeInsert">
+                <label><input name="typeInsert" type="radio" id="prepend"/>prepend</label>
+                <label><input name="typeInsert" type="radio" id="append"/>append</label>
+                <label><input name="typeInsert" type="radio" id="after"/>After</label>
+            </div>
+            <button typeElem="div" id="divElem">Div</button>
+            <button typeElem="span" id="spanElem">span</button>
+            <button id="buttonElem">Button</button>
+            <button id="inputTextElem">Input text</button>
+        </div>
+    </div>
+    <div class="middleSide"><div id="workArea"></div></div>
+    <div class="rightSide">
+        <div class="block editElem">
+            <h2>Parameters</h2>
+            <input id="width" type="text" placeholder="width"><br>
+            <input id="height" type="text" placeholder="height"><br>
+            <input id="background-color" type="text" placeholder="background-color">
+            <button id="editGo">Edit</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

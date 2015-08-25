@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: "CasperRegular"; */
+@font-face {
+    font-family: "CasperRegular";
+    src: url("fonts/CasperRegular.eot");
+    src: url("fonts/CasperRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/CasperRegular.woff") format("woff"),
+    url("fonts/CasperRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+body {
+    font-family:"CasperRegular", sans-serif;
+    color : rgba(19, 37, 70, 0.91);
+    font-size: 16px;
+    background-color: #7f8488;
+}
+
+.leftSide,.rightSide,.middleSide {
+    display: inline-block;
+    border-bottom: 3px solid rgba(19, 37, 70, 0.91);
+    border-radius: 0;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 0;
+}
+
+
+.leftSide,.rightSide {
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+.rightSide {
+    float: right;
+}
+
+.middleSide {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-height: 250px;
+    margin-top: 0;
+}
+
+.block {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.head h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.27);
+    margin-bottom: 1%;
+    border-bottom: 3px solid rgba(154, 7, 49, 0.91);
+}
+
+button {
+    background-color: #7f8488;
+    border-radius: 1px;
+    border: 0;
+    padding: 5px 10px;
+    color:#fff;
+    margin: 3px;
+    border-bottom: 3px solid rgba(19, 37, 70, 0.91);
+    cursor: pointer;
+
+}
+button:hover{
+    border-bottom: 3px solid rgba(154, 7, 49, 0.91);
+}
+
+input[type=text]{
+    background-color: #fff;
+    color:rgba(19, 37, 70, 0.91);
+    border: 1px solid #7f8488;
+    border-bottom: 3px solid rgba(19, 37, 70, 0.91);
+    border-radius: 1px;
+    padding: 5px 5px;
+    margin: 3px;
+    width:90%;
+}
+input[type=text]:hover{
+    border-bottom: 3px solid rgba(154, 7, 49, 0.91);
+}
+
+.cjs {
+    padding: 3px;
+    margin: 3px;
+    background-color: #bbb;
+    border: 1px solid rgba(0, 100, 0, 0);
+}
+.cjs:hover {
+    border: 1px solid darkgreen;
+}
